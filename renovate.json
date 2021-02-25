@@ -1,6 +1,6 @@
 {
     "branchPrefix": "test-renovate/",
-    "dryRun": true,
+    "dryRun": false,
     "gitAuthor": "Renovate Bot <bot@renovateapp.com>",
     "logLevel": "debug",
     "onboarding": false,
