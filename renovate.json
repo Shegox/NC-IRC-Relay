@@ -7,7 +7,7 @@
     "platform": "github",
     "includeForks": true,
     "repositories": [
-      "Shegox/vul-repo"
+      "Shegox/NC-IRC-Relay"
     ],
     "packageRules": [
       {
