@@ -7,23 +7,28 @@
     "platform": "github",
     "includeForks": true,
     "schedule": null,
+    "lockFileMaintenance": {
+        "enabled": true
+    },
     "repositories": [
         "Shegox/NC-IRC-Relay"
-        ],
+    ],
     "packageRules": [
-      {
-        "description": "lockFileMaintenance",
-        "stabilityDays": 0,
-        "dependencyDashboardApproval": false,
-        "extends": ["schedule:null"],
-        "matchUpdateTypes": [
-          "pin",
-          "digest",
-          "patch",
-          "minor",
-          "major",
-          "lockFileMaintenance"
-        ]
-      }
+        {
+            "description": "lockFileMaintenance",
+            "stabilityDays": 0,
+            "dependencyDashboardApproval": false,
+            "extends": [
+                "schedule:at any time"
+            ],
+            "matchUpdateTypes": [
+                "pin",
+                "digest",
+                "patch",
+                "minor",
+                "major",
+                "lockFileMaintenance"
+            ]
+        }
     ]
-  }
+}
