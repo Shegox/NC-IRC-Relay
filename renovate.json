@@ -18,9 +18,7 @@
             "description": "lockFileMaintenance",
             "stabilityDays": 0,
             "dependencyDashboardApproval": false,
-            "extends": [
-                "schedule:at any time"
-            ],
+            "extends": [{"schedule": null}],
             "matchUpdateTypes": [
                 "pin",
                 "digest",
